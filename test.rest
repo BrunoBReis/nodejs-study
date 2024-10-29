@@ -9,3 +9,11 @@ Content-Type: application/json
 {
   "information": "Hello World"
 }
+
+###
+PUT http://localhost:4000/api
+Content-Type: application/json 
+
+{
+  "information": "Hello World"
+}
