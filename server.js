@@ -16,7 +16,8 @@ app.get('/', (req, res) => {
 });
 
 app.put('/api', (req, res) => {
-    console.log("You have posted some information")
+    const { information } = req.body;
+    console.log(information)
     res.sendStatus(200);
 })
 
